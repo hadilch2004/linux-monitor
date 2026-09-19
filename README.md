@@ -29,30 +29,10 @@ A Python-based system monitoring project that collects OS metrics, stores them i
 
 ## Architecture
 
-```text
-Operating System
-       ↓
-Python + psutil
-       ↓
-PostgreSQL
-       ↓
-SQLAlchemy
-       ↓
-FastAPI
-       ↓
-Streamlit
+Operating System → Python + psutil → PostgreSQL → SQLAlchemy → FastAPI → Streamlit
 
+## Project Structure
 
-
-
-
-
-## Project structure
-
-
-
-
--------------------------
 linux-monitor/
 ├── collector/
 ├── database/
@@ -63,31 +43,30 @@ linux-monitor/
 ├── requirements.txt
 └── README.md
 
-
-
-
-
 ## Future Development
 
+- Pydantic API schemas
+- Flexible API time ranges
+- Process monitoring endpoints
+- Top CPU and memory processes
+- Network connections and listening ports
+- Network traffic monitoring
+- Logged-in user and session monitoring
+- Disk I/O monitoring
+- CPU frequency and temperature
+- Interrupt / IRQ monitoring
+- Threshold-based alerts
+- Alert history and active/resolved states
+- Browser notifications
+- More dashboard visualizations
+- Automated testing
+- Linux server deployment
+- Remote system monitoring
 
+## Goal
 
+Build a practical monitoring and observability system while learning Linux system behavior, backend development, databases, REST APIs, and deployment.
 
--------------------------
-Pydantic API schemas
-Flexible API time ranges
-Process monitoring endpoints
-Top CPU/memory processes
-Network connections and listening ports
-Network traffic monitoring
-Logged-in user/session monitoring
-Disk I/O monitoring
-CPU frequency and temperature
-Interrupt/IRQ monitoring
-Threshold-based alerts
-Alert history and active/resolved states
-Browser notifications
-More dashboard visualizations
-Automated testing
-Linux server deployment
-Remote system monitoring
+## Status
 
+🚧 Active development
