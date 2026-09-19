@@ -43,7 +43,15 @@ FastAPI
 Streamlit
 
 
+
+
+
+
 ## Project structure
+
+
+
+
 -------------------------
 linux-monitor/
 ├── collector/
@@ -56,7 +64,14 @@ linux-monitor/
 └── README.md
 
 
+
+
+
 ## Future Development
+
+
+
+
 -------------------------
 Pydantic API schemas
 Flexible API time ranges
