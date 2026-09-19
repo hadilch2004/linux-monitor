@@ -43,7 +43,7 @@ FastAPI
 Streamlit
 
 
-## Project Structure
+## Project structure
 -------------------------
 linux-monitor/
 ├── collector/
